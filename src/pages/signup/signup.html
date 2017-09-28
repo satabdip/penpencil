@@ -1,0 +1,49 @@
+<!--
+  Generated template for the SignupPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+multiple="true"-->
+<ion-header>
+
+  <ion-navbar color="primary">
+    <ion-title>Sign Up</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+<ion-list padding>
+ <ion-item >
+   <p style="color: #488aff;">Enter Phone Number </p>
+</ion-item>
+
+  <!-- <ion-label>Toppings</ion-label>
+<ion-select [(ngModel)]="toppings" >
+     <ion-option *ngFor="let item of countries" >{{item}}</ion-option> 
+
+     <ion-option value="1">{{}}</ion-option> 
+  </ion-select>  -->
+
+  <ion-grid>
+
+  <ion-row>
+
+
+<ion-col col-2>
+      <p  style="color: #808080;text-align:justify;"> <ion-img [src]="flag"></ion-img></p>
+  </ion-col>
+
+  <ion-col col-10>
+  <ion-item>
+    <ion-label>+91</ion-label>
+    <ion-input type="number" value="" [(ngModel)]="phonenumber" required></ion-input>
+  </ion-item>
+  </ion-col>
+
+  </ion-row>
+  </ion-grid>
+<button ion-button block color="secondary" (click)="nextpage();">Sign Up</button>
+</ion-list>
+</ion-content>

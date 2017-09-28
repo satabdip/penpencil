@@ -1,0 +1,21 @@
+page-signupdashboard {
+.childmar
+{
+	margin-top:5px;
+	margin-bottom:5px;
+	height:65px;
+}
+
+.item-md ion-thumbnail img {
+    width:40px;
+    height:40px;
+    margin-top:16px;
+}
+.item-md ion-thumbnail {
+     min-width: 50px;
+    min-height: 50px;
+}
+.item-md ion-thumbnail[item-start] {
+    margin: 6px 17px 7px -10px;
+}
+}
