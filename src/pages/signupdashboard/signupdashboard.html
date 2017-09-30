@@ -42,15 +42,15 @@
 <ion-col col-4 style="margin-left:-18px; "> <b style="color:white;">PEN PENCIL</b></ion-col>
 
 <ion-col col-7>
-  
-  
+
+
 </ion-col>
 
-<ion-col col-1 style="margin-left:18px; "> 
- <ion-icon name="menu" style="color:white;font-size:22px;" menuToggle></ion-icon> 
+<ion-col col-1 style="margin-left:18px; ">
+ <ion-icon name="menu" style="color:white;font-size:22px;" menuToggle></ion-icon>
 <!-- <button ion-button menuToggle>Toggle Menu</button>
  -->
-</ion-col> 
+</ion-col>
 </ion-row>
 
 <ion-row  style="margin-top: 30%;">
@@ -58,7 +58,7 @@
 <ion-col col-1></ion-col>
 
 <ion-col col-10>
-  
+
   <h2 style="color: #FFF;font-size: 16px;">What would you like to learn today ?</h2>
 </ion-col>
 
@@ -71,7 +71,7 @@
       <img src="assets/img/physics.png" class="iconlist">
     </ion-thumbnail>
     <h2>Physics</h2>
-   
+
   </ion-item>
 
    <ion-item class= "childmar" >
@@ -79,7 +79,7 @@
       <img src="assets/img/chemistry.png" class="iconlist">
     </ion-thumbnail>
     <h2>Chemistry</h2>
-   
+
   </ion-item>
 
    <ion-item class= "childmar">
@@ -87,9 +87,13 @@
       <img src="assets/img/maths.png" class="iconlist">
     </ion-thumbnail>
     <h2>Maths</h2>
-   
+
   </ion-item>
 </ion-list>
+
+  <button ion-button color="danger" (click)="nextPage();">LectureScreen</button>
+
+
 </ion-content>
 <ion-footer>
 
@@ -98,8 +102,11 @@
     <ion-tab tabIcon="book" tabTitle="Plan" [root]="tab1"></ion-tab>
     <ion-tab tabIcon="alarm" tabTitle="Test" [root]="tab2"></ion-tab>
     <ion-tab tabIcon="copy" tabTitle="Course" [root]="tab3"></ion-tab>
-   
+
   </ion-tabs>
   </ion-navbar>
+
+
+
 
 </ion-footer>

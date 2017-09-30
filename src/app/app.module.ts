@@ -16,6 +16,10 @@ import { SendsmsPage } from '../pages/sendsms/sendsms';
 import { VerifyOtpPage } from '../pages/verify-otp/verify-otp';
 import { SignupdashboardPage } from '../pages/signupdashboard/signupdashboard';
 import { ProgressBarComponent } from '../components/progress-bar/progress-bar';
+import { LectureScreenPage } from '../pages/lecture-screen/lecture-screen';
+
+
+
 @NgModule({
   declarations: [
     MyApp,
@@ -29,7 +33,8 @@ import { ProgressBarComponent } from '../components/progress-bar/progress-bar';
     SendsmsPage,
     ProgressBarComponent,
     VerifyOtpPage,
-    SignupdashboardPage
+    SignupdashboardPage,
+    LectureScreenPage
   ],
   imports: [
     BrowserModule,
@@ -54,7 +59,8 @@ import { ProgressBarComponent } from '../components/progress-bar/progress-bar';
     TabsPage,
     SendsmsPage,
     VerifyOtpPage,
-    SignupdashboardPage
+    SignupdashboardPage,
+    LectureScreenPage
   ],
   providers: [
     StatusBar,

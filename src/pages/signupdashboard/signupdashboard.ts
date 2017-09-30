@@ -5,6 +5,9 @@ import { ContactPage } from '../contact/contact';
 import { HomePage } from '../home/home';
 import { MepagePage } from '../mepage/mepage';
 import { SettingsPage } from '../settings/settings';
+
+import { LectureScreenPage } from '../lecture-screen/lecture-screen';
+
 /**
  * Generated class for the SignupdashboardPage page.
  *
@@ -28,6 +31,9 @@ export class SignupdashboardPage {
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad SignupdashboardPage');
+  }
+  nextPage(){
+    this.navCtrl.push(LectureScreenPage);
   }
 
 }
