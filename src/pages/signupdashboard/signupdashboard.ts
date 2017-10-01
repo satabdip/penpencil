@@ -7,6 +7,7 @@ import { MepagePage } from '../mepage/mepage';
 import { SettingsPage } from '../settings/settings';
 
 import { LectureScreenPage } from '../lecture-screen/lecture-screen';
+import { ChapterScreenPage } from '../chapter-screen/chapter-screen';
 
 /**
  * Generated class for the SignupdashboardPage page.
@@ -34,6 +35,10 @@ export class SignupdashboardPage {
   }
   nextPage(){
     this.navCtrl.push(LectureScreenPage);
+  }
+
+  chapterPage(){
+    this.navCtrl.push(ChapterScreenPage);
   }
 
 }

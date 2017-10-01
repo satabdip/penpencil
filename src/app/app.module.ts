@@ -17,6 +17,7 @@ import { VerifyOtpPage } from '../pages/verify-otp/verify-otp';
 import { SignupdashboardPage } from '../pages/signupdashboard/signupdashboard';
 import { ProgressBarComponent } from '../components/progress-bar/progress-bar';
 import { LectureScreenPage } from '../pages/lecture-screen/lecture-screen';
+import { ChapterScreenPage } from '../pages/chapter-screen/chapter-screen';
 
 
 
@@ -34,7 +35,8 @@ import { LectureScreenPage } from '../pages/lecture-screen/lecture-screen';
     ProgressBarComponent,
     VerifyOtpPage,
     SignupdashboardPage,
-    LectureScreenPage
+    LectureScreenPage,
+    ChapterScreenPage
   ],
   imports: [
     BrowserModule,
@@ -60,7 +62,8 @@ import { LectureScreenPage } from '../pages/lecture-screen/lecture-screen';
     SendsmsPage,
     VerifyOtpPage,
     SignupdashboardPage,
-    LectureScreenPage
+    LectureScreenPage,
+    ChapterScreenPage
   ],
   providers: [
     StatusBar,
