@@ -1,0 +1,41 @@
+<!-- Generated template for the MenubarComponent component -->
+  <ion-menu [content]="content"  style="height:800px;" type="overlay">
+
+    <ion-content style="background: #790CE8;">
+      <ion-list>
+
+
+        <ion-item (click)="openPage(homePage)"  style="height:100px;">
+
+         </ion-item>
+       <ion-item (click)="openPage(homePage)">
+          Home
+        </ion-item>
+        <button ion-item (click)="openPage(friendsPage)">
+          Friends
+        </button>
+        <button ion-item (click)="openPage(eventsPage)">
+          Events
+        </button>
+        <button ion-item (click)="closeMenu()">
+          Close Menu
+        </button>
+      </ion-list>
+    </ion-content>
+  </ion-menu>
+  <ion-nav #content [root]="rootPage"></ion-nav>
+
+  <ion-row>
+  <ion-col col-4 style="margin-left:-18px; "> <b style="color:white;">PEN PENCIL</b></ion-col>
+
+  <ion-col col-7>
+
+
+  </ion-col>
+
+  <ion-col col-1 style="margin-left:18px; ">
+   <ion-icon name="menu" style="color:white;font-size:22px;" menuToggle></ion-icon>
+  <!-- <button ion-button menuToggle>Toggle Menu</button>
+   -->
+  </ion-col>
+  </ion-row>

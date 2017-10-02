@@ -16,6 +16,19 @@ import { SendsmsPage } from '../pages/sendsms/sendsms';
 import { VerifyOtpPage } from '../pages/verify-otp/verify-otp';
 import { SignupdashboardPage } from '../pages/signupdashboard/signupdashboard';
 import { ProgressBarComponent } from '../components/progress-bar/progress-bar';
+import { StorePage } from '../pages/store/store';
+import { TestPage } from '../pages/test/test';
+import { CoursePage } from '../pages/course/course';
+import { SubinnerPage } from '../pages/subinner/subinner';
+import { MenubarComponent } from '../components/menubar/menubar';
+import { BookmarksPage } from '../pages/bookmarks/bookmarks';
+import { QuestionsPage } from '../pages/questions/questions';
+import { ConceptsPage } from '../pages/concepts/concepts';
+
+
+
+
+
 @NgModule({
   declarations: [
     MyApp,
@@ -29,7 +42,15 @@ import { ProgressBarComponent } from '../components/progress-bar/progress-bar';
     SendsmsPage,
     ProgressBarComponent,
     VerifyOtpPage,
-    SignupdashboardPage
+    SignupdashboardPage,
+    StorePage,
+    TestPage,
+    CoursePage,
+    MenubarComponent,
+    SubinnerPage,
+    BookmarksPage,
+    QuestionsPage,
+    ConceptsPage
   ],
   imports: [
     BrowserModule,
@@ -54,7 +75,14 @@ import { ProgressBarComponent } from '../components/progress-bar/progress-bar';
     TabsPage,
     SendsmsPage,
     VerifyOtpPage,
-    SignupdashboardPage
+    SignupdashboardPage,
+    StorePage,
+    TestPage,
+    CoursePage,
+    SubinnerPage,
+    BookmarksPage,
+    QuestionsPage,
+    ConceptsPage
   ],
   providers: [
     StatusBar,

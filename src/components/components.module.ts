@@ -1,8 +1,11 @@
 import { NgModule } from '@angular/core';
 import { ProgressBarComponent } from './progress-bar/progress-bar';
+import { MenubarComponent } from './menubar/menubar';
 @NgModule({
-	declarations: [ProgressBarComponent],
+	declarations: [ProgressBarComponent,
+    MenubarComponent],
 	imports: [],
-	exports: [ProgressBarComponent]
+	exports: [ProgressBarComponent,
+    MenubarComponent]
 })
 export class ComponentsModule {}
