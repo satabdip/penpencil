@@ -17,9 +17,12 @@ import { VerifyOtpPage } from '../pages/verify-otp/verify-otp';
 import { SignupdashboardPage } from '../pages/signupdashboard/signupdashboard';
 import { ProgressBarComponent } from '../components/progress-bar/progress-bar';
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { LectureScreenPage } from '../pages/lecture-screen/lecture-screen';
 import { ChapterScreenPage } from '../pages/chapter-screen/chapter-screen';
 =======
+=======
+>>>>>>> secondphase
 import { StorePage } from '../pages/store/store';
 import { TestPage } from '../pages/test/test';
 import { CoursePage } from '../pages/course/course';
@@ -30,7 +33,10 @@ import { QuestionsPage } from '../pages/questions/questions';
 import { ConceptsPage } from '../pages/concepts/concepts';
 
 
+<<<<<<< HEAD
 >>>>>>> second submit
+=======
+>>>>>>> secondphase
 
 
 
@@ -49,9 +55,12 @@ import { ConceptsPage } from '../pages/concepts/concepts';
     VerifyOtpPage,
     SignupdashboardPage,
 <<<<<<< HEAD
+<<<<<<< HEAD
     LectureScreenPage,
     ChapterScreenPage
 =======
+=======
+>>>>>>> secondphase
     StorePage,
     TestPage,
     CoursePage,
@@ -60,7 +69,10 @@ import { ConceptsPage } from '../pages/concepts/concepts';
     BookmarksPage,
     QuestionsPage,
     ConceptsPage
+<<<<<<< HEAD
 >>>>>>> second submit
+=======
+>>>>>>> secondphase
   ],
   imports: [
     BrowserModule,
@@ -86,16 +98,23 @@ import { ConceptsPage } from '../pages/concepts/concepts';
     SendsmsPage,
     VerifyOtpPage,
     SignupdashboardPage,
+<<<<<<< HEAD
     LectureScreenPage,
     ChapterScreenPage
   StorePage,
+=======
+    StorePage,
+>>>>>>> secondphase
     TestPage,
     CoursePage,
     SubinnerPage,
     BookmarksPage,
     QuestionsPage,
     ConceptsPage
+<<<<<<< HEAD
 
+=======
+>>>>>>> secondphase
   ],
   providers: [
     StatusBar,

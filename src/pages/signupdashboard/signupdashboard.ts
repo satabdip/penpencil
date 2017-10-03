@@ -2,26 +2,15 @@ import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { AboutPage } from '../about/about';
 import { ContactPage } from '../contact/contact';
-<<<<<<< HEAD
 import { HomePage } from '../home/home';
 import { MepagePage } from '../mepage/mepage';
 import { SettingsPage } from '../settings/settings';
-
 import { LectureScreenPage } from '../lecture-screen/lecture-screen';
 import { ChapterScreenPage } from '../chapter-screen/chapter-screen';
-
-/**
- * Generated class for the SignupdashboardPage page.
- *
- * See http://ionicframework.com/docs/components/#navigation for more info
- * on Ionic pages and navigation.
- */
-=======
 import { StorePage } from '../store/store';
 import { TestPage } from '../test/test';
 import { CoursePage } from '../course/course';
 
->>>>>>> second submit
 
 @IonicPage()
 @Component({
