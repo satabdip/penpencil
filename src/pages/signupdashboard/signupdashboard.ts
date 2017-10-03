@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { AboutPage } from '../about/about';
 import { ContactPage } from '../contact/contact';
+<<<<<<< HEAD
 import { HomePage } from '../home/home';
 import { MepagePage } from '../mepage/mepage';
 import { SettingsPage } from '../settings/settings';
@@ -15,6 +16,12 @@ import { ChapterScreenPage } from '../chapter-screen/chapter-screen';
  * See http://ionicframework.com/docs/components/#navigation for more info
  * on Ionic pages and navigation.
  */
+=======
+import { StorePage } from '../store/store';
+import { TestPage } from '../test/test';
+import { CoursePage } from '../course/course';
+
+>>>>>>> second submit
 
 @IonicPage()
 @Component({
@@ -22,11 +29,10 @@ import { ChapterScreenPage } from '../chapter-screen/chapter-screen';
   templateUrl: 'signupdashboard.html',
 })
 export class SignupdashboardPage {
- tab1 = HomePage;
-  tab2 = AboutPage;
-  tab3 = ContactPage;
-  tab4 = MepagePage;
-  //tab5Root = SettingsPage;
+ tab1 = StorePage;
+  tab2 = TestPage;
+  tab3 = CoursePage;
+
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 

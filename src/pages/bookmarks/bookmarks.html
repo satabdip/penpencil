@@ -1,0 +1,91 @@
+<ion-header>
+<ion-navbar>
+     <ion-title>Physics Bookmarks</ion-title>
+   </ion-navbar>
+   <ion-navbar>
+   <ion-buttons style="height:30px;">
+   <button ion-button block style="width:45%" (click)="questions();">QUESTIONS</button>
+   <button ion-button block style="width:45%" (click)="concepts();">CONCEPTS</button>
+    </ion-buttons>
+  </ion-navbar>
+ </ion-header>
+<ion-content style="background:#09A873;">
+  <ion-searchbar
+    [(ngModel)]="myInput"
+    [showCancelButton]="shouldShowCancel"
+    (ionInput)="onInput($event)"
+    (ionCancel)="onCancel($event)">
+  </ion-searchbar>
+
+
+  <ion-card>
+  <ion-card-header>
+  <ion-row>
+
+
+
+    <ion-col col-11 style="white-space:normal;">1. Mrs. Rodger got a weekly raise of $145. If she gets paid every other week,
+      write an integer describing how the raise will affect her paycheck.</ion-col>
+
+    <ion-col col-1> <ion-icon name="bookmark"></ion-icon>
+</ion-col>
+  </ion-row>
+  </ion-card-header>
+  <ion-card-content>
+    Let the 1st paycheck be x (integer).
+
+    Mrs. Rodger got a weekly raise of $ 145.
+
+    So after completing the 1st week she will get $ (x+145).
+
+    Similarly after completing the 2nd week she will get $ (x + 145) + $ 145.
+
+    = $ (x + 145 + 145)
+
+    = $ (x + 290)
+
+    So in this way end of every week her salary will increase by $ 145.
+
+
+
+
+    </ion-card-content>
+</ion-card>
+<ion-card>
+<ion-card-header>
+<ion-row>
+
+
+
+  <ion-col col-11 style="white-space:normal;">2.The value of x + x(xx) when x = 2 is:
+
+(a) 10, (b) 16, (c) 18, (d) 36, (e) 64</ion-col>
+
+  <ion-col col-1>
+     <ion-icon name="bookmark" item-start></ion-icon>
+</ion-col>
+</ion-row>
+</ion-card-header>
+<ion-card-content>
+  Let the 1st paycheck be x (integer).
+
+  Mrs. Rodger got a weekly raise of $ 145.
+
+  So after completing the 1st week she will get $ (x+145).
+
+  Similarly after completing the 2nd week she will get $ (x + 145) + $ 145.
+
+  = $ (x + 145 + 145)
+
+  = $ (x + 290)
+
+  So in this way end of every week her salary will increase by $ 145.
+
+
+
+
+  </ion-card-content>
+</ion-card>
+
+
+</ion-content>
